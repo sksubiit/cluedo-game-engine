@@ -4,6 +4,18 @@ Purpose of this repository is to develop the assignment 1 of Experimental Roboti
 
 Link for other two projects : https://github.com/SKSUB/Exp_robotics_lab_2 and https://github.com/SKSUB/Exp_robotics_lab_3
 
+## PROJECT BRANCHES
+
+This repository contains three branches representing three successive versions of the Cluedo game simulation. Each version extends the previous one with a more complete and extensive simulation:
+
+| Branch | Version | Description |
+| --- | --- | --- |
+| `main` | Assignment 1 | A ROS-based simulation in which the robot moves between rooms, collects hints, and checks the solution using the ARMOR service. |
+| `exp2` | Assignment 2 | Extends the game into a Gazebo simulation with robot manipulation, markers, MoveIt, and ROSPlan-based navigation. |
+| `exp3` | Assignment 3 | Extends the simulation further with ArUco marker detection, SLAM, and `move_base` navigation across the rooms. |
+
+The branches should be viewed in order: start with `main`, then explore `exp2`, and finally `exp3` to follow the development of the game from a basic state-machine simulation to the most extensive robotic simulation.
+
 ## SOFTWARE ARCHITECTURE
 In order to better understand the software architecture we can utilise the UML component diagram
 
@@ -123,4 +135,3 @@ SATHISH KUMAR SUBRAMANI.
 ROBOTICS ENGINEER, UNIGE.
 4847560@studenti.unige.it
             
-
